@@ -8,7 +8,7 @@ Anuj
   
 
 ```r
-setwd("C:\\Users\\Anuj\\Projects\\ReproducibleResearch\\RepData_PeerAssessment1")
+setwd("C:/Users/Anuj/datasciencecoursera/RepData_PeerAssessment1")
 activity<-read.csv("activity.csv", header=TRUE)
 activity$date <- as.Date(activity$date, "%Y-%m-%d")
 str(activity)
