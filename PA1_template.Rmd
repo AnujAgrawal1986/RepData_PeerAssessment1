@@ -1,6 +1,5 @@
 ---
 title: "Reproducible Research: Peer Assessment 1"
-author: "Omyung Richard Kwon"
 output: html_document
 ---
 
@@ -13,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 2. Process/transform the data (if necessary) into a format suitable for your analysis
   
 ```{r loadfile}
-setwd("C:\\Users\\kwonr\\Projects\\ReproducibleResearch\\RepData_PeerAssessment1")
+setwd("C:/Users/Anuj/datasciencecoursera/RepData_PeerAssessment1")
 activity<-read.csv("activity.csv", header=TRUE)
 activity$date <- as.Date(activity$date, "%Y-%m-%d")
 str(activity)
