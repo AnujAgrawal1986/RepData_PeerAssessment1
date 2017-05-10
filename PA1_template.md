@@ -1,6 +1,5 @@
 # Reproducible Research: Peer Assessment 1
-Omyung Richard Kwon  
-
+Anuj  
 
 
 ## Loading and preprocessing the data
